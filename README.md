@@ -17,4 +17,22 @@ To install and run the virtualenv, run in terminal:
 To run the virtualenv, run it terminal:
 `source zpoVenv/bin/activate`
 
-The app launch options are discussed in documantation `docs/dokumentace.pdf` in Czech language
+### Launch options?
+Gauss noise specification
+ - `--b-sigma B_SIGMA` Gaussion filter kernel deviation
+ - `--b-sigma-c B_SIGMA_COEF` Coefficient for dynamically computed sigma to be multiplied with
+Edge detection (Sobel)
+ - `--rgb` Apply filter throught all 3 channels (it's converted into greyscale otherwise)
+ - `--g-ksize G_KSIZE` Sobel filter kernel size
+Double tresholding
+ - `--htr HTR` High treshold value
+ - `--ltr LTR` Low treshold value
+Other options
+ - `input` path to picture to be processed (required)
+ - `--grid`
+ - `--step`
+ - `--show`
+ - `--save`
+ - `--max-resolution WIDTH HEIGHT` max resolution of image SHOWN
+ - `--output FILENAME, -o FILENAME` filename for output (suffix yet to be added)
+
