@@ -21,12 +21,15 @@ To run the virtualenv, run it terminal:
 Gauss noise specification
  - `--b-sigma B_SIGMA` Gaussion filter kernel deviation
  - `--b-sigma-c B_SIGMA_COEF` Coefficient for dynamically computed sigma to be multiplied with
+
 Edge detection (Sobel)
  - `--rgb` Apply filter throught all 3 channels (it's converted into greyscale otherwise)
  - `--g-ksize G_KSIZE` Sobel filter kernel size
+
 Double tresholding
  - `--htr HTR` High treshold value
  - `--ltr LTR` Low treshold value
+
 Other options
  - `input` path to picture to be processed (required)
  - `--grid`
